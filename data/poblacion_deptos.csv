@@ -1,0 +1,527 @@
+"province_code","department_code","department_name","department_poblacion"
+6,427,"La Matanza",2281194
+6,441,"La Plata",713947
+6,658,"Quilmes",664783
+6,357,"General Pueyrredón",656456
+6,490,"Lomas de Zamora",648312
+6,539,"Merlo",606413
+6,28,"Almirante Brown",597969
+6,560,"Moreno",541691
+6,274,"Florencio Varela",517082
+6,805,"Tigre",462998
+6,434,"Lanús",462827
+6,371,"General San Martín",425265
+6,638,"Pilar",378167
+6,260,"Esteban Echeverría",370900
+6,91,"Berazategui",365771
+6,515,"Malvinas Argentinas",359953
+6,35,"Avellaneda",356392
+6,840,"Tres de Febrero",344067
+6,568,"Morón",318632
+6,56,"Bahía Blanca",310095
+6,412,"José C. Paz",307443
+6,760,"San Miguel",304122
+6,756,"San Isidro",292224
+6,861,"Vicente López",267655
+6,252,"Escobar",255073
+6,270,"Ezeiza",219031
+6,408,"Hurlingham",193583
+6,410,"Ituzaingó",180914
+6,749,"San Fernando",174883
+6,763,"San Nicolás",155301
+6,791,"Tandil",139300
+6,882,"Zárate",128096
+6,595,"Olavarría",120154
+6,497,"Luján",119805
+6,623,"Pergamino",110012
+6,364,"General Rodríguez",109695
+6,648,"Presidente Perón",105918
+6,126,"Campana",105552
+6,98,"Berisso",96701
+6,581,"Necochea",95995
+6,413,"Junín",93384
+6,420,"La Costa",78554
+6,778,"San Vicente",77161
+6,224,"Chivilcoy",68412
+6,532,"Mercedes",67793
+6,49,"Azul",67667
+6,525,"Marcos Paz",66466
+6,770,"San Pedro",63677
+6,182,"Coronel de Marina L. Rosales",63508
+6,134,"Cañuelas",62921
+6,245,"Ensenada",61783
+6,833,"Tres Arroyos",57634
+6,210,"Chacabuco",52640
+6,588,"9 de Julio",48780
+6,826,"Trenque Lauquen",46648
+6,63,"Balcarce",45691
+6,280,"General Alvarado",44149
+6,469,"Lincoln",42312
+6,112,"Bragado",42144
+6,609,"Pehuajó",41441
+6,217,"Chascomús",40434
+6,203,"Coronel Suárez",40320
+6,483,"Lobos",39901
+6,868,"Villa Gesell",38034
+6,665,"Ramallo",37761
+6,854,"25 de Mayo",37071
+6,714,"Salto",36812
+6,266,"Exaltación de la Cruz",36545
+6,70,"Baradero",36338
+6,875,"Villarino",36315
+6,105,"Bolívar",35969
+6,707,"Saladillo",35261
+6,392,"General Villegas",33297
+6,602,"Patagones",32002
+6,644,"Pinamar",31584
+6,77,"Arrecifes",31328
+6,119,"Brandsen",31023
+6,238,"Dolores",28714
+6,175,"Colón",27078
+6,728,"San Andrés de Giles",25744
+6,518,"Mar Chiquita",25344
+6,735,"San Antonio de Areco",25251
+6,455,"Las Flores",24382
+6,686,"Rojas",24336
+6,547,"Monte",23896
+6,147,"Carlos Casares",23704
+6,196,"Coronel Pringles",22180
+6,700,"Saavedra",21943
+6,315,"General Juan Madariaga",21596
+6,42,"Ayacucho",21291
+6,505,"Magdalena",20613
+6,84,"Benito Juárez",20532
+6,301,"General Belgrano",19293
+6,385,"General Viamonte",18758
+6,476,"Lobería",18281
+6,574,"Navarro",18206
+6,231,"Daireaux",18204
+6,7,"Adolfo Alsina",17483
+6,462,"Leandro N. Alem",17442
+6,329,"General Las Heras",17412
+6,679,"Rivadavia",17119
+6,140,"Capitán Sarmiento",16387
+6,672,"Rauch",16165
+6,161,"Carmen de Areco",15560
+6,189,"Coronel Dorrego",15212
+6,294,"General Arenales",15061
+6,651,"Puán",15054
+6,819,"Tornquist",13942
+6,693,"Roque Pérez",13863
+6,399,"Guaminí",12584
+6,14,"Adolfo Gonzales Chaves",11922
+6,343,"General Paz",11763
+6,154,"Carlos Tejedor",11671
+6,784,"Suipacha",11510
+6,351,"General Pinto",11508
+6,287,"General Alvear",11480
+6,21,"Alberti",10995
+6,448,"Laprida",10905
+6,322,"General La Madrid",10642
+6,655,"Punta Indio",10579
+6,511,"Maipú",10388
+6,406,"Hipólito Yrigoyen",10262
+6,798,"Tapalqué",10103
+6,277,"Florentino Ameghino",9645
+6,847,"Tres Lomas",8837
+6,721,"Salliqueló",8810
+6,742,"San Cayetano",8797
+6,168,"Castelli",8671
+6,553,"Monte Hermoso",7390
+6,466,"Lezama",6294
+6,616,"Pellegrini",6058
+6,336,"General Lavalle",4459
+6,630,"Pila",3966
+6,308,"General Guido",2892
+6,812,"Tordillo",1807
+10,49,"Capital",183406
+10,112,"Valle Viejo",31788
+10,35,"Belén",31399
+10,70,"La Paz",25209
+10,91,"Santa María",24050
+10,105,"Tinogasta",23301
+10,21,"Andalgalá",19976
+10,42,"Capayán",18678
+10,98,"Santa Rosa",14165
+10,63,"Fray Mamerto Esquiú",13614
+10,84,"Pomán",12439
+10,7,"Ambato",4634
+10,77,"Paclín",4307
+10,56,"El Alto",3903
+10,14,"Ancasti",2916
+10,28,"Antofagasta de la Sierra",1653
+22,140,"San Fernando",442642
+22,21,"Comandante Fernández",114419
+22,63,"General Güemes",77464
+22,84,"Libertador General San Martín",68805
+22,98,"Mayor Luis J. Fontana",60044
+22,7,"Almirante Brown",42810
+22,133,"Quitilipi",38714
+22,28,"Chacabuco",36066
+22,168,"25 de Mayo",32317
+22,105,"9 de Julio",32265
+22,14,"Bermejo",27581
+22,91,"Maipú",27136
+22,36,"12 de Octubre",26309
+22,70,"Independencia",26014
+22,112,"O' Higgins",21778
+22,154,"Sargento Cabral",17914
+22,147,"San Lorenzo",16012
+22,49,"General Belgrano",14741
+22,77,"Libertad",14685
+22,43,"Fray Justo Santa María de Oro",14361
+22,56,"General Donovan",14311
+22,119,"Presidencia de la Plaza",13492
+22,126,"1º de Mayo",12515
+22,39,"2 de Abril",7888
+22,161,"Tapenagá",4258
+26,21,"Escalante",234397
+26,77,"Rawson",144869
+26,7,"Biedma",116160
+26,35,"Futaleufú",48976
+26,14,"Cushamen",24538
+26,91,"Sarmiento",15055
+26,42,"Gaiman",12904
+26,84,"Río Senguer",6248
+26,98,"Tehuelches",5516
+26,56,"Languiñeo",3127
+26,70,"Paso de Indios",1809
+26,28,"Florentino Ameghino",1785
+26,105,"Telsen",1527
+26,49,"Gastre",1368
+26,63,"Mártires",715
+2,1,"Comuna 1",256405
+2,7,"Comuna 7",241861
+2,4,"Comuna 4",240100
+2,13,"Comuna 13",236358
+2,8,"Comuna 8",228953
+2,14,"Comuna 14",227115
+2,12,"Comuna 12",214777
+2,3,"Comuna 3",193276
+2,11,"Comuna 11",190076
+2,5,"Comuna 5",187518
+2,6,"Comuna 6",185456
+2,15,"Comuna 15",182465
+2,9,"Comuna 9",171264
+2,10,"Comuna 10",170592
+2,2,"Comuna 2",149430
+18,21,"Capital",410878
+18,70,"Goya",98213
+18,168,"Santo Tomé",73143
+18,119,"Paso de los Libres",53952
+18,35,"Curuzú Cuatiá",49862
+18,105,"Mercedes",44773
+18,112,"Monte Caseros",41854
+18,7,"Bella Vista",41599
+18,84,"Ituzaingó",33661
+18,91,"Lavalle",33609
+18,49,"Esquina",33059
+18,28,"Concepción",25819
+18,126,"Saladas",24464
+18,140,"San Luis del Palmar",19925
+18,161,"San Roque",19888
+18,133,"San Cosme",16736
+18,42,"Empedrado",16437
+18,63,"General Paz",15730
+18,147,"San Martín",15051
+18,154,"San Miguel",11540
+18,77,"Itatí",10208
+18,98,"Mburucuyá",10071
+18,175,"Sauce",9384
+18,56,"General Alvear",8128
+18,14,"Berón de Astrada",2817
+14,14,"Capital",1453684
+14,21,"Colón",301889
+14,98,"Río Cuarto",277775
+14,140,"San Justo",228501
+14,91,"Punilla",213136
+14,42,"General San Martín",144441
+14,161,"Tercero Arriba",121541
+14,147,"Santa María",119033
+14,182,"Unión",117925
+14,119,"Río Segundo",116106
+14,63,"Marcos Juárez",115019
+14,7,"Calamuchita",70512
+14,56,"Juárez Celman",69812
+14,28,"Cruz del Eje",68656
+14,133,"San Javier",60165
+14,105,"Río Primero",53832
+14,126,"San Alberto",43908
+14,35,"General Roca",40626
+14,84,"Presidente Roque Sáenz Peña",40409
+14,49,"Ischilín",36276
+14,168,"Totoral",21686
+14,112,"Río Seco",15494
+14,175,"Tulumba",14108
+14,77,"Pocho",5778
+14,70,"Minas",5075
+14,154,"Sobremonte",5063
+30,84,"Paraná",376912
+30,15,"Concordia",191117
+30,56,"Gualeguaychú",124231
+30,98,"Uruguay",113161
+30,28,"Federación",83341
+30,8,"Colón",77039
+30,70,"La Paz",72051
+30,49,"Gualeguay",58565
+30,113,"Villaguay",52651
+30,21,"Diamante",51384
+30,77,"Nogoyá",41304
+30,105,"Victoria",39665
+30,35,"Federal",28189
+30,91,"Tala",26659
+30,88,"San Salvador",19804
+30,42,"Feliciano",16468
+30,63,"Islas del Ibicuy",13420
+34,14,"Formosa",271381
+34,49,"Pilcomayo",96978
+34,35,"Patiño",76987
+34,56,"Pirané",69852
+34,42,"Pilagás",20540
+34,21,"Laishi",19009
+34,28,"Matacos",17156
+34,63,"Ramón Lista",17009
+34,7,"Bermejo",16281
+38,21,"Dr. Manuel Belgrano",308821
+38,14,"El Carmen",116567
+38,35,"Ledesma",89309
+38,63,"San Pedro",81843
+38,42,"Palpalá",59999
+38,112,"Yavi",24645
+38,70,"Santa Bárbara",19103
+38,28,"Humahuaca",18692
+38,94,"Tilcara",15410
+38,7,"Cochinoca",13592
+38,56,"San Antonio",5684
+38,98,"Tumbaya",4948
+38,84,"Susques",4127
+38,49,"Rinconada",2903
+38,105,"Valle Grande",2619
+38,77,"Santa Catalina",2619
+42,21,"Capital",119781
+42,105,"Maracó",67361
+42,140,"Toay",17994
+42,133,"Realicó",17986
+42,154,"Utracán",16180
+42,35,"Conhelo",14191
+42,56,"Chapaleufú",13079
+42,112,"Puelén",12157
+42,126,"Rancul",11111
+42,7,"Atreucó",10584
+42,98,"Loventué",9131
+42,119,"Quemú Quemú",9080
+42,70,"Guatraché",8871
+42,28,"Catriló",8124
+42,77,"Hucal",7406
+42,147,"Trenel",5325
+42,49,"Chalileo",3680
+42,14,"Caleu Caleu",2768
+42,63,"Chicalcó",1519
+42,42,"Curacó",1193
+42,91,"Limay Mahuida",583
+42,84,"Lihuel Calel",324
+46,14,"Capital",223101
+46,42,"Chilecito",59812
+46,7,"Arauco",18083
+46,35,"Chamical",15664
+46,112,"Rosario Vera Peñaloza",15619
+46,28,"Coronel Felipe Varela",9853
+46,63,"General Belgrano",7993
+46,84,"General Ocampo",7213
+46,49,"Famatina",5674
+46,91,"General San Martín",5198
+46,21,"Castro Barros",4553
+46,119,"San Blas de los Sauces",3899
+46,70,"General Juan F. Quiroga",3819
+46,56,"General Angel V. Peñaloza",3187
+46,98,"Vinchina",2765
+46,126,"Sanagasta",2665
+46,105,"Independencia",2587
+46,77,"General Lamadrid",1846
+50,28,"Guaymallén",332468
+50,49,"Las Heras",235699
+50,105,"San Rafael",213160
+50,21,"Godoy Cruz",206510
+50,70,"Maipú",201218
+50,63,"Luján de Cuyo",143320
+50,98,"San Martín",135003
+50,7,"Capital",119854
+50,84,"Rivadavia",63518
+50,119,"Tunuyán",60416
+50,14,"General Alvear",50693
+50,56,"Lavalle",44040
+50,35,"Junín",42980
+50,91,"San Carlos",39343
+50,126,"Tupungato",38885
+50,77,"Malargüe",34642
+50,112,"Santa Rosa",17758
+50,42,"La Paz",10831
+54,28,"Capital",371424
+54,91,"Oberá",121727
+54,63,"Iguazú",99849
+54,42,"Eldorado",90484
+54,56,"Guaraní",79553
+54,98,"San Ignacio",61666
+54,14,"Cainguás",60756
+54,49,"General Manuel Belgrano",53354
+54,77,"Libertador Grl. San Martín",51706
+54,70,"Leandro N. Alem",49461
+54,7,"Apóstoles",47387
+54,84,"Montecarlo",40209
+54,112,"San Pedro",39137
+54,21,"Candelaria",32419
+54,119,"25 de Mayo",28916
+54,105,"San Javier",22971
+54,35,"Concepción",10275
+58,35,"Confluencia",426804
+58,112,"Zapala",40369
+58,56,"Lácar",37756
+58,91,"Pehuenches",35081
+58,49,"Huiliches",17842
+58,70,"Los Lagos",17647
+58,42,"Chos Malal",17229
+58,14,"Añelo",16622
+58,7,"Aluminé",11718
+58,105,"Picunches",8069
+58,77,"Minas",7935
+58,63,"Loncopué",7858
+58,84,"Ñorquín",6031
+58,98,"Picún Leufú",5282
+58,28,"Collón Curá",4918
+58,21,"Catán Lil",2896
+62,42,"General Roca",370245
+62,21,"Bariloche",163743
+62,7,"Adolfo Alsina",65450
+62,14,"Avellaneda",40349
+62,77,"San Antonio",36787
+62,91,"25 de Mayo",18917
+62,63,"Pichi Mahuida",14441
+62,70,"Pilcaniyeu",9356
+62,84,"Valcheta",8556
+62,28,"Conesa",8221
+62,35,"El Cuy",6781
+62,49,"9 de Julio",3334
+62,56,"Ñorquincó",1430
+66,28,"Capital",631058
+66,56,"Grl. José de San Martín",184877
+66,126,"Orán",162562
+66,7,"Anta",68925
+66,49,"General Güemes",55211
+66,35,"Cerrillos",48658
+66,147,"Rosario de Lerma",45862
+66,112,"Metán",43714
+66,133,"Rivadavia",35109
+66,140,"Rosario de la Frontera",31393
+66,42,"Chicoana",24541
+66,21,"Cafayate",19162
+66,77,"La Caldera",10551
+66,161,"Santa Victoria",9849
+66,98,"La Viña",8088
+66,14,"Cachi",7672
+66,154,"San Carlos",7087
+66,105,"Los Andes",6821
+66,84,"La Candelaria",6452
+66,119,"Molinos",5958
+66,70,"Iruya",5786
+66,63,"Guachipas",3288
+66,91,"La Poma",1773
+70,77,"Rawson",126870
+70,28,"Capital",107401
+70,42,"Chimbas",106627
+70,84,"Rivadavia",92939
+70,70,"Pocito",70638
+70,98,"Santa Lucía",55304
+70,35,"Caucete",45938
+70,7,"Albardón",29269
+70,105,"Sarmiento",26910
+70,56,"Jáchal",23586
+70,126,"25 de Mayo",20285
+70,91,"San Martín",12830
+70,49,"Iglesia",12499
+70,63,"9 de Julio",11761
+70,21,"Calingasta",9503
+70,14,"Angaco",9186
+70,119,"Valle Fértil",8001
+70,133,"Zonda",6072
+70,112,"Ullúm",5598
+74,56,"La Capital",242908
+74,35,"General Pedernera",145471
+74,49,"Junín",38266
+74,28,"Chacabuco",23798
+74,7,"Ayacucho",22030
+74,21,"Coronel Pringles",14315
+74,42,"Gobernador Dupuy",12869
+74,63,"Libertador General San Martín",4390
+74,14,"Belgrano",4281
+78,14,"Deseado",148968
+78,21,"Güer Aike",139354
+78,28,"Lago Argentino",30540
+78,7,"Corpen Aike",14869
+78,42,"Magallanes",12395
+78,35,"Lago Buenos Aires",11767
+78,49,"Río Chico",7805
+82,84,"Rosario",1291010
+82,63,"La Capital",583368
+82,42,"General López",211950
+82,21,"Castellanos",206032
+82,49,"General Obligado",199488
+82,119,"San Lorenzo",184609
+82,70,"Las Colonias",122547
+82,28,"Constitución",96574
+82,105,"San Jerónimo",89985
+82,14,"Caseros",89297
+82,91,"San Cristóbal",77228
+82,56,"Iriondo",72062
+82,126,"San Martín",70819
+82,133,"Vera",54902
+82,7,"Belgrano",51493
+82,112,"San Justo",44041
+82,98,"San Javier",34075
+82,77,"9 de Julio",33574
+82,35,"Garay",23364
+86,49,"Capital",298076
+86,35,"Banda",163370
+86,147,"Río Hondo",61166
+86,161,"Robles",50933
+86,77,"General Taboada",40522
+86,119,"Moreno",38117
+86,56,"Copo",38016
+86,63,"Choya",36486
+86,105,"Loreto",23815
+86,28,"Avellaneda",22952
+86,133,"Pellegrini",22156
+86,14,"Alberdi",19755
+86,98,"Juan F. Ibarra",19753
+86,70,"Figueroa",18529
+86,91,"Jiménez",16144
+86,126,"Ojo de Agua",15089
+86,21,"Atamisqui",12619
+86,168,"Salavina",12123
+86,42,"Belgrano",11144
+86,175,"San Martín",10917
+86,140,"Quebrachos",10136
+86,7,"Aguirre",8500
+86,189,"Silípica",8000
+86,84,"Guasayán",7967
+86,154,"Rivadavia",5230
+86,182,"Sarmiento",4772
+86,112,"Mitre",2026
+94,7,"Río Grande",95889
+94,14,"Ushuaia",77260
+90,84,"Capital",605767
+90,14,"Cruz Alta",219826
+90,105,"Tafí Viejo",150121
+90,119,"Yerba Buena",96639
+90,21,"Chicligasta",94466
+90,63,"Lules",89673
+90,70,"Monteros",75346
+90,77,"Río Chico",66531
+90,56,"Leales",62958
+90,7,"Burruyacú",45225
+90,28,"Famaillá",42167
+90,42,"Juan Bautista Alberdi",35297
+90,91,"Simoca",34366
+90,49,"La Cocha",22222
+90,112,"Trancas",21369
+90,98,"Tafí del Valle",17502
+90,35,"Graneros",15181
