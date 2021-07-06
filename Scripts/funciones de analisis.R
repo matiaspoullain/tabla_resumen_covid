@@ -75,9 +75,9 @@ agregar_acumulados_positividad_letalidad <- function(base){
 razon_incidencia <- function(base){
   c <- base
   c <- c[fecha_min >= as.Date(fecha_maxima) - 29][, dias := fcase(fecha_min < as.Date(fecha_maxima) - 14, "Anteriores",
-                                                                  fecha_min >= as.Date(fecha_maxima) - 14, "Ultimos")][, .(conteo = sum(confirmados)), by = .(dias, depto)]
+                                                                  fecha_min >= as.Date(fecha_maxima) - 14, "Ultimos")][, .(conteo = sum(confirmados)), by = .(dias, prov, depto)]
   c <- dcast(c, ... ~ dias, value.var = "conteo")[, razon := round(Ultimos / Anteriores, 2)]
-  c <- merge(poblaciones, c[, -c("Anteriores")], by.x = "department_code", by.y = "depto", all.x = TRUE)
+  c <- merge(poblaciones, c[, -c("Anteriores")], by.x = c("province_code", "department_code"), by.y = c("prov", "depto"), all.x = TRUE)
   c[, incidencia := round(100000 * Ultimos / department_poblacion, 2)]
   c[razon == Inf, "razon"] <- NA 
   c <- merge(c, unique(cod_prov_depto[, .(prov_name, prov_code)]), by.x = "province_code", by.y = "prov_code", all.x = TRUE)

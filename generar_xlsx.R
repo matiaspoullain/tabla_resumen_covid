@@ -1,6 +1,7 @@
 
 #Librerias
 library(dplyr)
+library(lubridate)
 library(data.table)
 library(xlsx)
 
@@ -81,4 +82,4 @@ final <- datos %>%
 
 nombre.archivo <- paste0("Tablas resumen/Resumen COVID Argentina ", as.character(today()), ".xlsx")
 
-write.xlsx(x = final, file = nombre.archivo, row.names = FALSE)
+write.xlsx(x = final, file = nombre.archivo, row.names = FALSE, showNA = FALSE)
