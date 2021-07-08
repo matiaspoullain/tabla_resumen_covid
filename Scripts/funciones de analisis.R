@@ -47,7 +47,7 @@ agrupamiento_argentina <- function(base){
 }
 
 agrupamiento_provincias <- function(base){
-  grupos <- names(base)[!names(base) %in% c("depto", "confirmados", "confirmados_14", "casos_posibles", "casos_posibles_14", "fallecidos", "fallecidos_14", "positividad", "letalidad")]
+  grupos <- names(base)[!names(base) %in% c("depto", "confirmados", "confirmados_14", "casos_posibles", "casos_posibles_14", "fallecidos", "fallecidos_14", "positividad", "letalidad", "confirmados_acumulados", "casos_posibles_acumulados", "fallecidos_acumulados")]
   c <- base[, .(confirmados = sum(confirmados),
                 confirmados_14 = sum(confirmados_14),
                 casos_posibles = sum(casos_posibles),
@@ -84,3 +84,17 @@ razon_incidencia <- function(base){
   c <- c[, .(province_code, department_code, prov_name, department_name, razon, incidencia)] %>% arrange(prov_name, department_name)
   c
 }
+
+razon_incidencia_prov <- function(base){
+  c <- base
+  c <- c[fecha_min >= as.Date(fecha_maxima) - 29][, dias := fcase(fecha_min < as.Date(fecha_maxima) - 14, "Anteriores",
+                                                                  fecha_min >= as.Date(fecha_maxima) - 14, "Ultimos")][, .(conteo = sum(confirmados)), by = .(dias, prov)]
+  c <- dcast(c, ... ~ dias, value.var = "conteo")[, razon := round(Ultimos / Anteriores, 2)]
+  c <- merge(poblaciones.prov, c[, -c("Anteriores")], by.x = "province_code", by.y = "prov", all.x = TRUE)
+  c[, incidencia := round(100000 * Ultimos / province_poblacion, 2)]
+  c[razon == Inf, "razon"] <- NA 
+  c <- merge(c, unique(cod_prov_depto[, .(prov_name, prov_code)]), by.x = "province_code", by.y = "prov_code", all.x = TRUE)
+  c <- c[, .(province_code, prov_name, razon, incidencia)] %>% arrange(prov_name)
+  c
+}
+

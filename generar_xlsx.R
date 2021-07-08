@@ -66,8 +66,9 @@ datos <- datos %>%
   base_grande_r_edad() %>%
   base_grande()
 
-source("Scripts/funciones de analisis.R", encoding = "UTF-8")
 poblaciones <- fread("data/poblacion_deptos.csv", encoding = "UTF-8")
+poblaciones.prov <- poblaciones[, .(province_poblacion = sum(department_poblacion)), by = province_code]
+source("Scripts/funciones de analisis.R", encoding = "UTF-8")
 
 final <- datos %>%
   razon_incidencia() %>%
@@ -80,6 +81,28 @@ final <- datos %>%
          Incidencia = incidencia,
          Letalidad = letalidad)
 
-nombre.archivo <- paste0("Tablas resumen/Resumen COVID Argentina ", as.character(today()), ".xlsx")
+letalidad.prov <- datos %>% 
+  agrupamiento_provincias() %>%
+  agregar_acumulados_positividad_letalidad()
+
+letalidad.prov <- letalidad.prov[fecha_min == fecha_maxima, .(prov, letalidad)][, prov := as.character(prov)]
+
+
+a.caracter <- datos %>%
+  razon_incidencia_prov()
+a.caracter[, province_code := as.character(province_code)]
+
+final.prov <- merge(a.caracter, letalidad.prov, by.x = "province_code", by.y = "prov") %>%
+  rename(Provincia_codigo = province_code,
+         Provincia_nombre = prov_name,
+         Razon = razon,
+         Incidencia = incidencia,
+         Letalidad = letalidad)
+
+nombre.archivo <- paste0("Tablas resumen/Resumen COVID Argentina Departamental ", as.character(today()), ".xlsx")
 
 write.xlsx(x = final, file = nombre.archivo, row.names = FALSE, showNA = FALSE)
+
+nombre.archivo.prov <- paste0("Tablas resumen/Resumen COVID Argentina Provincial ", as.character(today()), ".xlsx")
+
+write.xlsx(x = final.prov, file = nombre.archivo.prov, row.names = FALSE, showNA = FALSE)
