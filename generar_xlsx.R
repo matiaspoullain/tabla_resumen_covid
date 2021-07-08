@@ -7,11 +7,11 @@ library(xlsx)
 
 
 #Preprocesamiento:
-temp <- tempfile()
-download.file("https://sisa.msal.gov.ar/datos/descargas/covid-19/files/Covid19Casos.zip",temp)
-datos <- fread(unzip(temp, "Covid19Casos.csv"), encoding = "UTF-8", stringsAsFactors = TRUE)
-unlink(temp)
+download.file("https://sisa.msal.gov.ar/datos/descargas/covid-19/files/Covid19Casos.zip", "covid_comprimido.zip")
+unzip("covid_comprimido.zip", "Covid19Casos.csv")
+datos <- fread("Covid19Casos.csv", encoding = "UTF-8", stringsAsFactors = TRUE)
 file.remove("Covid19Casos.csv")
+file.remove("covid_comprimido.zip")
 #Borro columnas que no nos interesan:
 datos <- datos[, -c("residencia_pais_nombre",
                     "residencia_provincia_nombre",
