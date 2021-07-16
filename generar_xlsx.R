@@ -7,7 +7,7 @@ library(xlsx)
 
 
 #Preprocesamiento:
-download.file("https://sisa.msal.gov.ar/datos/descargas/covid-19/files/Covid19Casos.zip", "covid_comprimido.zip")
+download.file("https://sisa.msal.gov.ar/datos/descargas/covid-19/files/Covid19Casos.zip", "covid_comprimido.zip", method = "curl")
 unzip("covid_comprimido.zip", "Covid19Casos.csv")
 datos <- fread("Covid19Casos.csv", encoding = "UTF-8", stringsAsFactors = TRUE)
 file.remove("Covid19Casos.csv")
